@@ -1,0 +1,11 @@
+@import "base/variables";
+// Foundation
+// Confusing, right ? :3 it shouldn't be. the reason why
+// app.scss is able to import these files is because 
+// SassLoader in webpack.config is loading all the scss files
+// in node_modules/foundation-sites/scss folder.
+// check out the config!
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+// Imports
